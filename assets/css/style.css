@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico');
 body {
     background-color: salmon;
     color:black;
     font-family: 'Pacifico', cursive;
+    font-family: 'Indie Flower', cursive;
   }
   
   header {
     margin-top: 20px;
+    
   }
   img {
     width: 100%;
