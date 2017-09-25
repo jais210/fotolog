@@ -1,32 +1,4 @@
-// // proffesor code 
-// const app  = {
-//     item :  {
-//         name: undefined,
-//         comment: undefined
-//     },
-//     init : function () {
-//         app.item.name =   $('#clave');
-//         app.item.comment =   $('#valor');
 
-//         app.setup ();
-//     },
-
-//     setup: function () {
-//         $('#addBnt').click (app.addComment) ;
-//         $('#clearBnt').click (app.clearComments) ;
-//     },
-
-//     addComment: function (event) {
-//         $('#ale').append ( `<p> ${app.item.name.val()} </p>\
-//                             <p>  ${app.item.comment.val()} </p>`);
-
-//     },
-
-//     clearComments: function (event) {
-//         $('#ale').empty();
-//     }
-// };
-// $(document).ready ( app.init );
 
 // my code
 const app = {
@@ -68,3 +40,33 @@ const app = {
     }
 };
 $(document).ready(app.init);
+
+// // proffesor code 
+// const app  = {
+//     item :  {
+//         name: undefined,
+//         comment: undefined
+//     },
+//     init : function () {
+//         app.item.name =   $('#clave');
+//         app.item.comment =   $('#valor');
+
+//         app.setup ();
+//     },
+
+//     setup: function () {
+//         $('#addBnt').click (app.addComment) ;
+//         $('#clearBnt').click (app.clearComments) ;
+//     },
+
+//     addComment: function (event) {
+//         $('#ale').append ( `<p> ${app.item.name.val()} </p>\
+//                             <p>  ${app.item.comment.val()} </p>`);
+
+//     },
+
+//     clearComments: function (event) {
+//         $('#ale').empty();
+//     }
+// };
+// $(document).ready ( app.init );
