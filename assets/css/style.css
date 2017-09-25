@@ -16,6 +16,10 @@ body {
     height: 100%;
     margin-bottom: 30px;
   }
+  .btn {
+    display: inline-block;
+ } 
+
 #imgCenter{
     position: relative;
     right: 10px;
